@@ -147,32 +147,47 @@ li {
     margin-bottom: 5px;
 }
 
-label {
+label, #button, #titulo {
     font-family: 'Tajawal', sans-serif;
+}
+
+label {
+    
     font-size: 22px;
 }
 
 #button {
-    background: none;
+    background-color: #2884b246;
     position: relative;
     top: 2.5em;
-    left: 5em;
+    right: 0.0em;
     display: flex;
+    border: none;
     border-radius: 17px;
     padding: 10px 15px 10px 15px;
     font-size: 22px;
-    font-family: 'Tajawal', sans-serif;
-    border: solid black 2.5px;
+    /* border: solid black 2.5px; */
     cursor: pointer;
+    width: 130px;
+    justify-content: center;
+    margin: auto;
 }
 
 .divForm {
     margin: auto;
     border: 5px dashed black;
+    border-radius: 15px;
     height: 18em;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     width: 25em;
     position: relative;
     top: 20vh;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5em;
 }
