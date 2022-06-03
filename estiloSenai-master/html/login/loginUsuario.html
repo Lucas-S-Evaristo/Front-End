@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,7 +16,7 @@
 <body>
     
     <div>
-        <!-- HEADER -->
+        HEADER
         <header id="header">
             <img src="../../imgs/logo_senai_original.png" alt="Logo do Senai" width="100" class="imgLogo">
             <nav id="nav">
@@ -27,7 +27,7 @@
             </nav>
         </header>
 
-            <!-- TÍTULO -->
+            TÍTULO
     <h1 id="titulo">Login de Usuário</h1>
 
         <div class="divForm">
@@ -44,6 +44,54 @@
                 <button type="submit" id="button">Entrar</button>
             </form>
         </div>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/header/headerPadraoUser.css">
+    <link rel="stylesheet" href="../../css/login/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="../../imgs/logo_senai_original.png" alt="Logo do Senai" width="100" class="imgLogo">
+        <nav id="nav">
+            <ul class="listaNav">
+                <li class="current"><a class="aNav">Home</a></li>
+                <li class="current"><a href="./Login/loginUsuario.html" class="aNav">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="divMain">
+        <main class="container">
+            <h2>Login</h2>
+            <form action="">
+                <div class="input-field">
+                    <input type="text" name="username" id="username" placeholder="NIF">
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                    <div class="underline"></div>
+                </div>
+
+                <input type="submit" value="Continue">
+            </form>
+
+            <div class="footer">
+                <span id="span">Esqueceu a senha? <a href="">Redefinir senha</a></span>
+            </div>
+        </main>
     </div>
 </body>
 
